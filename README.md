@@ -2,7 +2,7 @@
 
 > A calm and minimal HTML landing page template for modern digital products.
 
-![CalmLanding cover](preview/calmlanding-cover.jpg)
+![CalmLanding cover](preview/calmlanding-cover.png)
 
 [Live Demo](https://awekhstudio.github.io/calmlanding/) · [Repository](https://github.com/awekhstudio/calmlanding)
 
