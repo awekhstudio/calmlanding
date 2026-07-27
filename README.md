@@ -43,7 +43,7 @@ Semantic markup, keyboard support, visible focus, and readable contrast are part
 
 ## Preview
 
-![Desktop preview](preview/calmlanding-desktop.jpg)
+![Desktop preview](preview/calmlanding-desktop.png)
 
 ![Mobile preview](preview/calmlanding-mobile.jpg)
 
