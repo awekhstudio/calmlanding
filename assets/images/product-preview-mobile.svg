@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Northwind Notes mobile preview</title>
+  <desc id="desc">A focused mobile layout showing a single decision, status, and recent notes.</desc>
+  <rect width="390" height="844" fill="#f7f4ed"/>
+  <rect x="18" y="18" width="354" height="58" rx="16" fill="#fffdf8" stroke="#d7d1c7"/>
+  <text x="38" y="54" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e211f">Northwind Notes</text>
+  <circle cx="340" cy="47" r="14" fill="#dfe8e1"/>
+  <text x="20" y="122" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#415b4d">MOBILE REFRESH · DECISION 014</text>
+  <text x="20" y="174" font-family="Georgia, serif" font-size="31" fill="#1e211f">Keep the first release</text>
+  <text x="20" y="212" font-family="Georgia, serif" font-size="31" fill="#1e211f">focused on core notes.</text>
+  <text x="20" y="258" font-family="Arial, sans-serif" font-size="15" fill="#666a65">The team agreed to postpone advanced</text>
+  <text x="20" y="282" font-family="Arial, sans-serif" font-size="15" fill="#666a65">automation until the writing workflow</text>
+  <text x="20" y="306" font-family="Arial, sans-serif" font-size="15" fill="#666a65">is stable and easy to maintain.</text>
+  <rect x="20" y="342" width="158" height="38" rx="19" fill="#dfe8e1"/>
+  <text x="45" y="366" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#415b4d">Decision approved</text>
+  <rect x="18" y="414" width="354" height="188" rx="18" fill="#fffdf8" stroke="#d7d1c7"/>
+  <text x="38" y="452" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#415b4d">WHY THIS MATTERS</text>
+  <text x="38" y="492" font-family="Arial, sans-serif" font-size="15" fill="#1e211f">A smaller first release keeps the product</text>
+  <text x="38" y="518" font-family="Arial, sans-serif" font-size="15" fill="#1e211f">clear, testable, and easier to explain.</text>
+  <rect x="38" y="552" width="294" height="1" fill="#d7d1c7"/>
+  <text x="38" y="578" font-family="Arial, sans-serif" font-size="13" fill="#666a65">Owner: Mira · Reviewed today</text>
+  <text x="20" y="654" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#415b4d">RECENT NOTES</text>
+  <rect x="18" y="676" width="354" height="66" rx="16" fill="#fffdf8"/>
+  <text x="38" y="705" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211f">Onboarding review</text>
+  <text x="38" y="728" font-family="Arial, sans-serif" font-size="13" fill="#666a65">Five friction points from user sessions.</text>
+  <rect x="18" y="758" width="354" height="66" rx="16" fill="#fffdf8"/>
+  <text x="38" y="787" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#1e211f">Navigation notes</text>
+  <text x="38" y="810" font-family="Arial, sans-serif" font-size="13" fill="#666a65">Keep projects visible without extra noise.</text>
+</svg>

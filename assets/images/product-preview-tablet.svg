@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 980" role="img" aria-labelledby="title desc">
+  <title id="title">Northwind Notes tablet preview</title>
+  <desc id="desc">A compact tablet layout showing project navigation, a decision summary, and recent notes.</desc>
+  <rect width="820" height="980" fill="#f7f4ed"/>
+  <rect x="34" y="34" width="752" height="74" rx="18" fill="#fffdf8" stroke="#d7d1c7"/>
+  <text x="64" y="80" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e211f">Northwind Notes</text>
+  <circle cx="730" cy="71" r="18" fill="#dfe8e1"/>
+  <rect x="34" y="136" width="210" height="810" rx="20" fill="#eee9df"/>
+  <text x="62" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#415b4d">PROJECTS</text>
+  <rect x="54" y="208" width="170" height="56" rx="12" fill="#fffdf8"/>
+  <text x="72" y="243" font-family="Arial, sans-serif" font-size="17" fill="#1e211f">Mobile refresh</text>
+  <text x="62" y="305" font-family="Arial, sans-serif" font-size="16" fill="#666a65">Pricing research</text>
+  <text x="62" y="350" font-family="Arial, sans-serif" font-size="16" fill="#666a65">API launch</text>
+  <rect x="272" y="136" width="514" height="500" rx="20" fill="#fffdf8" stroke="#d7d1c7"/>
+  <text x="306" y="190" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#415b4d">DECISION 014</text>
+  <text x="306" y="244" font-family="Georgia, serif" font-size="38" fill="#1e211f">Keep the first release</text>
+  <text x="306" y="290" font-family="Georgia, serif" font-size="38" fill="#1e211f">focused on core notes.</text>
+  <rect x="306" y="330" width="424" height="2" fill="#d7d1c7"/>
+  <text x="306" y="380" font-family="Arial, sans-serif" font-size="18" fill="#666a65">The team agreed to postpone advanced</text>
+  <text x="306" y="410" font-family="Arial, sans-serif" font-size="18" fill="#666a65">automation until the writing workflow is stable.</text>
+  <rect x="306" y="470" width="170" height="42" rx="21" fill="#dfe8e1"/>
+  <text x="337" y="497" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#415b4d">Decision approved</text>
+  <rect x="272" y="664" width="514" height="282" rx="20" fill="#fffdf8" stroke="#d7d1c7"/>
+  <text x="306" y="714" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#415b4d">RECENT NOTES</text>
+  <text x="306" y="762" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e211f">Onboarding review</text>
+  <text x="306" y="792" font-family="Arial, sans-serif" font-size="16" fill="#666a65">Five friction points from the latest sessions.</text>
+  <rect x="306" y="824" width="424" height="1" fill="#d7d1c7"/>
+  <text x="306" y="870" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e211f">Navigation notes</text>
+  <text x="306" y="900" font-family="Arial, sans-serif" font-size="16" fill="#666a65">Keep projects visible without a heavy sidebar.</text>
+</svg>

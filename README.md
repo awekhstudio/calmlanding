@@ -18,6 +18,7 @@ The included demo promotes **Northwind Notes**, a fictional product. All product
 - Mobile-first responsive layout
 - Accessible mobile navigation
 - Keyboard-friendly FAQ accordion
+- Accessible responsive preview tabs
 - Active section navigation
 - Reduced-motion aware smooth scrolling
 - Local preview and favicon assets
@@ -46,7 +47,7 @@ Semantic markup, keyboard support, visible focus, and readable contrast are part
 
 ![Mobile preview](preview/calmlanding-mobile.jpg)
 
-The preview files are generated placeholders. Replace them with final screenshots before release. Recommended sizes are documented in [`preview/README.md`](preview/README.md).
+The repository preview images above are the current release screenshots. Recommended capture sizes and update guidance are documented in [`preview/README.md`](preview/README.md).
 
 ## Getting Started
 
@@ -66,10 +67,12 @@ No install or build command is required.
 ## Customization
 
 1. Replace all Northwind Notes copy, dummy names, testimonials, URLs, and metadata in `index.html`.
-2. Replace `assets/images/product-preview.svg` with your own local product image and update its dimensions and alt text.
-3. Edit design tokens in `:root` inside `assets/css/style.css` to change colors, spacing, typefaces, radius, and container width.
-4. Keep heading order and accessible button attributes intact when changing sections.
-5. Update the canonical URL, Open Graph image, GitHub links, version, sitemap, and robots file before publishing.
+2. Replace `assets/images/product-preview-desktop.svg`, `product-preview-tablet.svg`, and `product-preview-mobile.svg` with compositions made for each viewport. Do not use one cropped image for all three modes.
+3. Update each preview image's `width`, `height`, and alternative text in `index.html`. The alt text should describe the product interface, not the decorative browser frame.
+4. Change the visible tab labels in `index.html` when needed, while preserving each tab's `id`, `aria-controls`, and matching panel relationship.
+5. Edit design tokens in `:root` inside `assets/css/style.css` to change colors, spacing, typefaces, radius, preview framing, and container width.
+6. Keep heading order and accessible button attributes intact when changing sections.
+7. Update the canonical URL, Open Graph image, GitHub links, version, sitemap, and robots file before publishing.
 
 ## Accessibility
 
@@ -87,7 +90,9 @@ calmlanding/
 │   ├── css/reset.css
 │   ├── css/style.css
 │   ├── icons/favicon.svg
-│   ├── images/product-preview.svg
+│   ├── images/product-preview-desktop.svg
+│   ├── images/product-preview-tablet.svg
+│   ├── images/product-preview-mobile.svg
 │   └── js/main.js
 ├── preview/
 │   ├── README.md
@@ -113,7 +118,7 @@ The repository can be deployed to GitHub Pages, Netlify, Cloudflare Pages, or or
 
 The included workflow publishes the static repository when changes are pushed to `main`. Alternatively, choose **Settings → Pages → Deploy from a branch → main → root**.
 
-Before publishing, replace placeholder URLs containing `awekhstudio`, confirm repository naming, and update `sitemap.xml`, `robots.txt`, canonical metadata, and Open Graph metadata.
+The included links and canonical URL target the official CalmLanding repository and GitHub Pages site. Update `sitemap.xml`, `robots.txt`, canonical metadata, and Open Graph metadata only when publishing under a different account or domain.
 
 ## License
 

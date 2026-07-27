@@ -32,7 +32,7 @@
         <a href="#preview">Preview</a>
         <a href="#faq">FAQ</a>
         <a href="https://github.com/awekhstudio/calmlanding">GitHub</a>
-        <a class="button button-small" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download</a>
+        <a class="button button-small" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download Template</a>
       </nav>
     </div>
   </header>
@@ -40,16 +40,20 @@
   <main id="main-content">
     <section class="hero section">
       <div class="container hero-grid">
-        <div class="hero-preview" aria-label="Northwind Notes product preview">
-          <img src="assets/images/product-preview.svg" width="1200" height="780" alt="Northwind Notes interface showing a project decision log and recent notes">
-        </div>
+        <figure class="hero-preview browser-frame">
+          <div class="browser-frame-bar" aria-hidden="true">
+            <span class="browser-frame-dots"><i></i><i></i><i></i></span>
+            <span class="browser-frame-address">northwindnotes.app</span>
+          </div>
+          <img src="assets/images/product-preview-desktop.svg" width="1200" height="780" alt="Northwind Notes interface showing a project decision log and recent notes">
+        </figure>
         <div class="hero-copy">
           <p class="eyebrow">Notes for thoughtful product teams</p>
           <h1>Keep decisions clear.<br>Keep work moving.</h1>
           <p class="lead">Northwind Notes gives small teams one quiet place to document product thinking, decisions, and next steps without turning every idea into a meeting.</p>
           <div class="button-group">
-            <a class="button" href="#preview">View demo</a>
-            <a class="button button-secondary" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download template</a>
+            <a class="button" href="#preview">View Demo</a>
+            <a class="button button-secondary" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download Template</a>
           </div>
           <p class="hero-note">Static demo content. No account, tracking, or external service required.</p>
         </div>
@@ -105,10 +109,46 @@
           <h2 id="preview-title">The product, given room to speak.</h2>
           <p>A large local preview asset anchors the page without a noisy gallery or decorative carousel.</p>
         </div>
-        <figure class="product-figure">
-          <img src="assets/images/product-preview.svg" width="1200" height="780" alt="Large preview of Northwind Notes with project navigation, decision content, and team activity">
-          <figcaption>Northwind Notes demo interface. Replace <code>assets/images/product-preview.svg</code> with your own product screenshot.</figcaption>
-        </figure>
+        <div class="preview-tabs" data-preview-tabs>
+          <div class="preview-tablist" role="tablist" aria-label="Choose a responsive product preview">
+            <button id="preview-tab-desktop" role="tab" type="button" aria-selected="true" aria-controls="preview-panel-desktop" tabindex="0">Desktop</button>
+            <button id="preview-tab-tablet" role="tab" type="button" aria-selected="false" aria-controls="preview-panel-tablet" tabindex="-1">Tablet</button>
+            <button id="preview-tab-mobile" role="tab" type="button" aria-selected="false" aria-controls="preview-panel-mobile" tabindex="-1">Mobile</button>
+          </div>
+
+          <div id="preview-panel-desktop" class="preview-panel" role="tabpanel" aria-labelledby="preview-tab-desktop">
+            <figure class="product-figure browser-frame">
+              <div class="browser-frame-bar" aria-hidden="true">
+                <span class="browser-frame-dots"><i></i><i></i><i></i></span>
+                <span class="browser-frame-address">northwindnotes.app</span>
+              </div>
+              <img src="assets/images/product-preview-desktop.svg" width="1200" height="780" alt="Desktop layout of Northwind Notes with project navigation, decision content, and team activity">
+              <figcaption>Desktop composition for wide product storytelling.</figcaption>
+            </figure>
+          </div>
+
+          <div id="preview-panel-tablet" class="preview-panel" role="tabpanel" aria-labelledby="preview-tab-tablet">
+            <figure class="product-figure browser-frame browser-frame-tablet">
+              <div class="browser-frame-bar" aria-hidden="true">
+                <span class="browser-frame-dots"><i></i><i></i><i></i></span>
+                <span class="browser-frame-address">northwindnotes.app</span>
+              </div>
+              <img src="assets/images/product-preview-tablet.svg" width="820" height="980" alt="Tablet layout of Northwind Notes with a compact project list and readable decision summary">
+              <figcaption>Tablet composition with a tighter reading column.</figcaption>
+            </figure>
+          </div>
+
+          <div id="preview-panel-mobile" class="preview-panel" role="tabpanel" aria-labelledby="preview-tab-mobile">
+            <figure class="product-figure browser-frame browser-frame-mobile">
+              <div class="browser-frame-bar" aria-hidden="true">
+                <span class="browser-frame-dots"><i></i><i></i><i></i></span>
+                <span class="browser-frame-address">northwindnotes.app</span>
+              </div>
+              <img src="assets/images/product-preview-mobile.svg" width="390" height="844" alt="Mobile layout of Northwind Notes showing a focused decision summary and recent notes">
+              <figcaption>Mobile composition designed for focused reading.</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -137,7 +177,7 @@
         <div class="accordion" data-accordion>
           <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-1" id="faq-button-1">Can I use this template commercially?<span aria-hidden="true">+</span></button></h3><div id="faq-1" role="region" aria-labelledby="faq-button-1" hidden><p>Yes. CalmLanding is released under the MIT License, so commercial and personal use are permitted with the required license notice.</p></div></section>
           <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-2" id="faq-button-2">Does it require a build step?<span aria-hidden="true">+</span></button></h3><div id="faq-2" role="region" aria-labelledby="faq-button-2" hidden><p>No. Open <code>index.html</code> directly, or publish the repository through any static hosting provider.</p></div></section>
-          <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-3" id="faq-button-3">How do I replace the product preview?<span aria-hidden="true">+</span></button></h3><div id="faq-3" role="region" aria-labelledby="faq-button-3" hidden><p>Replace the local SVG in <code>assets/images</code>, then update the image dimensions and alternative text in <code>index.html</code>.</p></div></section>
+          <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-3" id="faq-button-3">How do I replace the product preview?<span aria-hidden="true">+</span></button></h3><div id="faq-3" role="region" aria-labelledby="faq-button-3" hidden><p>Replace the desktop, tablet, and mobile SVG files in <code>assets/images</code>, then update their dimensions and alternative text in <code>index.html</code>.</p></div></section>
           <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-4" id="faq-button-4">Can I add a signup form?<span aria-hidden="true">+</span></button></h3><div id="faq-4" role="region" aria-labelledby="faq-button-4" hidden><p>Yes, but form processing requires a backend or third-party service. Review its privacy, accessibility, and security implications before adding it.</p></div></section>
           <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-5" id="faq-button-5">Is the navigation keyboard accessible?<span aria-hidden="true">+</span></button></h3><div id="faq-5" role="region" aria-labelledby="faq-button-5" hidden><p>Yes. The menu button exposes its state, focus remains visible, and the mobile menu closes with Escape.</p></div></section>
           <section class="faq-item"><h3><button aria-expanded="false" aria-controls="faq-6" id="faq-button-6">Which browsers are supported?<span aria-hidden="true">+</span></button></h3><div id="faq-6" role="region" aria-labelledby="faq-button-6" hidden><p>The template targets current versions of Chrome, Edge, Firefox, and Safari. Internet Explorer is not supported.</p></div></section>
@@ -147,18 +187,37 @@
 
     <section class="section cta" aria-labelledby="cta-title">
       <div class="container cta-inner">
-        <div><p class="eyebrow">Start with less noise</p><h2 id="cta-title">Give your product a calmer introduction.</h2><p>Replace the placeholder content, add your screenshot, and publish a focused landing page without installing anything.</p></div>
-        <div class="button-group"><a class="button" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download</a><a class="button button-secondary" href="#preview">View demo</a></div>
+        <div class="cta-copy">
+          <p class="eyebrow">Start with less noise</p>
+          <h2 id="cta-title">Give your product a calmer introduction.</h2>
+          <p>Replace the demo content, add your product previews, and publish a focused landing page without installing anything.</p>
+        </div>
+        <div class="cta-actions">
+          <div class="button-group">
+            <a class="button" href="https://github.com/awekhstudio/calmlanding/archive/refs/heads/main.zip">Download Template</a>
+            <a class="button button-secondary" href="#preview">View Demo</a>
+          </div>
+          <ul class="trust-list" aria-label="Template details">
+            <li>MIT License</li>
+            <li>No dependencies</li>
+            <li>Ready for GitHub Pages</li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <p>MIT License</p>
-      <a href="https://github.com/awekhstudio/calmlanding">GitHub</a>
-      <p>Version 1.0.0</p>
-      <p>Made by <a href="https://github.com/awekhstudio">awekh studio</a></p>
+      <p class="footer-product">CalmLanding</p>
+      <div class="footer-meta">
+        <p>Version 1.0.0</p>
+        <p>MIT License</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/awekhstudio/calmlanding">GitHub</a>
+        <p>Made by <a href="https://github.com/awekhstudio">awekh studio</a></p>
+      </div>
     </div>
   </footer>
 </body>
